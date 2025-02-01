@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <PackageId>Factory.Generator.Abstractions</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>Ilia Mazurenko</Authors>
+        <Company>Empty</Company>
+        <Product>Finch</Product>
+        <PackageProjectUrl>https://github.com/ivmazurenko/factory-generator</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+</Project>
