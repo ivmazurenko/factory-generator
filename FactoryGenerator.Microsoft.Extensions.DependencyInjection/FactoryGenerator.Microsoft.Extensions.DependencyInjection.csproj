@@ -4,11 +4,11 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
-        <PackageId>Factory.Generator</PackageId>
+        <PackageId>FactoryGenerator.Microsoft.Extensions.DependencyInjection</PackageId>
         <Version>0.0.1</Version>
         <Authors>Ilia Mazurenko</Authors>
         <Company>Empty</Company>
-        <Product>Finch</Product>
+        <Product>FactoryGenerator.Microsoft.Extensions.DependencyInjection</Product>
         <PackageProjectUrl>https://github.com/ivmazurenko/factory-generator</PackageProjectUrl>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>

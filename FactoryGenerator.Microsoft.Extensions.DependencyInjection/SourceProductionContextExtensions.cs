@@ -1,12 +1,14 @@
+using System;
 using System.Text;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Text;
 
-namespace Factory.Generator;
+namespace FactoryGenerator.Microsoft.Extensions.DependencyInjection;
 
+[Obsolete]
 public static class SourceProductionContextExtensions
 {
-    static int counter = 0;
+    private static int counter;
 
     public static void Debug(this SourceProductionContext context, object? code, string? token = null)
     {

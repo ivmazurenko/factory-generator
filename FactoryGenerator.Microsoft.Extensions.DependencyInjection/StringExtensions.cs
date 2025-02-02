@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Factory.Generator;
+namespace FactoryGenerator.Microsoft.Extensions.DependencyInjection;
 
 public static class StringExtensions
 {

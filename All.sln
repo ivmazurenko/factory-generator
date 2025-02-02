@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.Generator.Abstractions", "Factory.Generator.Abstractions\Factory.Generator.Abstractions.csproj", "{80BBFC36-2661-478E-A47D-3CF5149EB571}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryGenerator.Abstractions", "FactoryGenerator.Abstractions\FactoryGenerator.Abstractions.csproj", "{80BBFC36-2661-478E-A47D-3CF5149EB571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.Generator", "Factory.Generator\Factory.Generator.csproj", "{2251861B-0595-4DCD-8C33-363DCF9BF263}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryGenerator.Microsoft.Extensions.DependencyInjection", "FactoryGenerator.Microsoft.Extensions.DependencyInjection\FactoryGenerator.Microsoft.Extensions.DependencyInjection.csproj", "{2251861B-0595-4DCD-8C33-363DCF9BF263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.Generator.Tests", "Factory.Generator.Tests\Factory.Generator.Tests.csproj", "{A69B7AF2-A948-4347-A848-0A2E77CE52EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{A69B7AF2-A948-4347-A848-0A2E77CE52EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

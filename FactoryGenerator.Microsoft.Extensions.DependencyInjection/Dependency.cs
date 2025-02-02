@@ -1,6 +1,6 @@
 using Microsoft.CodeAnalysis;
 
-namespace Factory.Generator;
+namespace FactoryGenerator.Microsoft.Extensions.DependencyInjection;
 
 public readonly record struct Dependency(
     DependencyKind Kind,
@@ -8,8 +8,8 @@ public readonly record struct Dependency(
     string TokenName,
     ITypeSymbol RoslynType)
 {
-    public readonly DependencyKind Kind = Kind;
     public readonly string FullTypeName = FullTypeName;
-    public readonly string TokenName = TokenName;
+    public readonly DependencyKind Kind = Kind;
     public readonly ITypeSymbol RoslynType = RoslynType;
+    public readonly string TokenName = TokenName;
 }
