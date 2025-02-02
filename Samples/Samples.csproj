@@ -7,11 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\FactoryGenerator.Abstractions\FactoryGenerator.Abstractions.csproj" />
-        <ProjectReference Include="..\FactoryGenerator.Microsoft.Extensions.DependencyInjection\FactoryGenerator.Microsoft.Extensions.DependencyInjection.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
-    </ItemGroup>
-
-    <ItemGroup>
+      <PackageReference Include="FactoryGenerator.Abstractions" Version="0.0.1" />
+      <PackageReference Include="FactoryGenerator.Microsoft.Extensions.DependencyInjection" Version="0.0.21" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
     </ItemGroup>
 
