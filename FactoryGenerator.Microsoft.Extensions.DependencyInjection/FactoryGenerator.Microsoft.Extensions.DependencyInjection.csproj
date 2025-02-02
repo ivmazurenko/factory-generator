@@ -5,7 +5,7 @@
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
         <PackageId>FactoryGenerator.Microsoft.Extensions.DependencyInjection</PackageId>
-        <Version>0.0.21</Version>
+        <Version>0.0.22</Version>
         <Authors>Ilia Mazurenko</Authors>
         <Company>Empty</Company>
         <Product>FactoryGenerator.Microsoft.Extensions.DependencyInjection</Product>

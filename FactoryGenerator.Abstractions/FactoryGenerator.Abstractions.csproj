@@ -5,7 +5,7 @@
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
         <PackageId>FactoryGenerator.Abstractions</PackageId>
-        <Version>0.0.1</Version>
+        <Version>0.0.22</Version>
         <Authors>Ilia Mazurenko</Authors>
         <Company>Empty</Company>
         <Product>FactoryGenerator.Abstractions</Product>

@@ -2,13 +2,12 @@
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
         <OutputType>Exe</OutputType>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="FactoryGenerator.Abstractions" Version="0.0.1" />
-      <PackageReference Include="FactoryGenerator.Microsoft.Extensions.DependencyInjection" Version="0.0.21" />
+      <PackageReference Include="FactoryGenerator.Abstractions" Version="0.0.22" />
+      <PackageReference Include="FactoryGenerator.Microsoft.Extensions.DependencyInjection" Version="0.0.22" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
     </ItemGroup>
 

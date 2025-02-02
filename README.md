@@ -50,8 +50,7 @@ var serviceCollection = new ServiceCollection()
 ```c#
 using var serviceProvider = serviceCollection.BuildServiceProvider();
 
-var factory = serviceProvider
-.GetRequiredService<IFactory<int, Service>>();
+var factory = serviceProvider.GetRequiredService<IFactory<int, Service>>();
 
 var service = factory.Create(1);
 ```
