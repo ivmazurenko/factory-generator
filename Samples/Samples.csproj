@@ -6,8 +6,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="FactoryGenerator.Abstractions" Version="0.0.22"/>
-        <PackageReference Include="FactoryGenerator.Microsoft.Extensions.DependencyInjection" Version="0.0.22"/>
+        <PackageReference Include="FactoryGenerator.Abstractions" Version="0.0.24"/>
+        <PackageReference Include="FactoryGenerator.Microsoft.Extensions.DependencyInjection" Version="0.0.24"/>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0"/>
     </ItemGroup>
 
