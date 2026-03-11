@@ -1,8 +1,8 @@
 # FactoryGenerator
 
 .NET source generator that automatically
-generates and registers [factories](https://github.com/ivmazurenko/factory-generator/blob/master/FactoryGenerator.Abstractions/IFactory.cs)
-
+generates and
+registers [factories](https://github.com/ivmazurenko/factory-generator/blob/master/FactoryGenerator.Abstractions/IFactory.cs)
 
 ## Installation
 

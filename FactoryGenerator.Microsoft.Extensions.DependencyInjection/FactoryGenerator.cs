@@ -32,7 +32,7 @@ public class FactoryGenerator : IIncrementalGenerator
         if (classOrRecordDeclarations.Length == 0)
             return;
 
-        List<Model> allModels = new List<Model>();
+        var allModels = new List<Model>();
 
         foreach (var classDeclarationSyntax in classOrRecordDeclarations)
         {
@@ -58,9 +58,7 @@ public class FactoryGenerator : IIncrementalGenerator
             allModels.AddRange(models);
 
             foreach (var model in models)
-            {
                 RenderFactory(context, model);
-            }
         }
 
         RenderExtensionMethod(context, allModels);
@@ -85,7 +83,7 @@ public class FactoryGenerator : IIncrementalGenerator
                   public static IServiceCollection RegisterGeneratedFactories(this IServiceCollection self)
                   {
                       {{registrations}}
-              
+
                       return self;
                   }
               }
@@ -134,12 +132,12 @@ public class FactoryGenerator : IIncrementalGenerator
               public sealed class {{model.FactoryTypeName}} : {{model.FullInterfaceTypeName}}
               {
                   {{fields}}
-              
+
                   public {{model.FactoryTypeName}}({{factoryCtorParameters}})
                   {
                       {{assignments}}
                   }
-              
+
                   public {{fullClassName}} Create({{methodParameters}})
                   {
                       return new {{fullClassName}}({{ctorParameters}});
